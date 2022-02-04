@@ -1,0 +1,269 @@
+ body {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+ }
+
+ header {
+   background-color: #2A2A2A;
+   position: relative;
+   box-shadow: 0px 3px 8px 0px rgba(0,0,0,.5);
+ }
+
+ p {
+  line-height: 1.4;
+  color: #7f969e;
+ }
+
+header > div {
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header img {
+  margin: 16px 0px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-transform: uppercase;
+  color: #d4d4d4;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+nav a:last-of-type {
+  color: #FDB530;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+nav a.active {
+  background-color: #107698;
+  color: white;
+}
+
+#Pagenamecontainer{
+  height: 50px;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  text-align: center;
+  padding: 70px 0;
+  background-position: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  text-shadow: 1px 2px 2px black;
+}
+
+section.Contentcontainer h2 {
+  font-size: 34px;
+  font-weight: 300;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.Contentcontainer > p {
+  font-size: 18px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.Contentcontainer {
+  background-color: white;
+  padding: 54px 0;
+}
+
+section.Contentcontainer.backgroundGrey {
+  background-color: #EDEff3;
+}
+
+section.Contentcontainer p span.highlight {
+  color: Orange;
+}
+
+section.blockStyle div.Flexcontainer {
+  display: flex;
+  flex-flow: row;
+  gap: 32px;
+  margin-top: 48px;
+  justify-content: center;
+}
+
+section#Blockstyle2 div.Flexcontainer {
+  gap: 80px;
+}
+
+section.blockStyle article {
+  width: 260px;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+  background-color: white;
+}
+
+section#Blockstyle2 article {
+  width: 320px;
+}
+
+section.blockStyle article h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-variant: all-small-caps;
+
+  font-size: 30px;
+  font-weight: 300;
+  background-color: #107698;
+  color: white;
+
+  padding: 0 16px;
+  text-align: center;
+  min-height: 110px;
+}
+
+section.blockStyle article p {
+  border-top: 5px solid #d1d1d0;
+  box-shadow: 0px -2px 5px 0px;
+  padding: 24px 20px;
+}
+
+section.nakedStyle div.Flexcontainer {
+  display: flex;
+  justify-content: center;
+  margin: 48px auto 0;
+  width: 1150px;
+  flex-flow: row wrap;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+section.nakedStyle article {
+  width: 350px;
+  margin-bottom: 32px;
+}
+
+section.nakedStyle article h3 {
+  font-size: 16px;
+  color: #0a465b;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .5px;
+
+  border-bottom: 2px solid #FDB530;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+section.nakedStyle article p {
+  text-align: center;
+}
+
+#Getintouch section {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#Getintouch section .Leftside img {
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 8px solid rgba(255,155,0,.7);
+}
+
+
+#Getintouch section div:first-of-type > div {
+   font-size: 18px;
+    color: grey;
+    padding: 8px 24px;
+
+    border-top: 1px solid #107698;
+    border-bottom: 1px solid #107698;
+ }
+
+#Getintouch input {
+  background-color: #107698;
+  color: white;
+
+  font-size: 18px;
+  padding: 12px 24px;
+  width: 200px;
+
+  border-radius: 6px;
+  border: 2px solid orange;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+}
+
+#Getintouch a {
+  display: inline-block;
+  margin: 0 12px;
+  border: 5px solid lightgrey;
+  border-radius: 50%;
+  position: relative;
+
+  transition: all .2s;
+  top: 0px;
+}
+
+#Getintouch a:hover {
+  top: 5px;
+}
+
+#Getintouch section > div:last-of-type {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Separator {
+  width: 2px;
+  height: 220px;
+  background-color: lightgrey;
+}
+
+.Separator2 {
+  width: 100%;
+  height: 4px;
+  background-color: lightgrey;
+}
+
+#Trustedby img {
+  display: block;
+  margin: 24px auto 0;
+}
+
+footer {
+  color: #c7c5c5;
+  font-size: 18px;
+
+  background-color: #504f4f;
+  line-height: 1.4;
+  padding: 40px 0;
+
+  text-align: center;
+
+}
