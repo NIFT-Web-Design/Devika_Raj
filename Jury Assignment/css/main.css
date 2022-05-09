@@ -82,12 +82,12 @@ footer {
 
 }
 
-nav {
+section#link{
   display: flex;
   align-items: center;
 }
 
-nav b {
+section#link a {
   color: #4a4a4a;
   font-size: 25px;
   font-weight: 600;
@@ -97,7 +97,7 @@ nav b {
   margin-left: 550px;
 }
 
-nav b:hover {
+section#link > a:hover{
   color: #2a2a2a;
   text-decoration: underline;
   text-decoration-color: #646464;
